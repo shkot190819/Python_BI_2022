@@ -1,29 +1,3 @@
-"""
-while True:
-    command = input()
-    if command == 'exit':
-        break
-    if command == 'transcribe':
-        print('I transcribed that')
-    if command == 'reverse':
-        pass
-    if command == 'complement':
-        pass
-    if command == 'reverse complement':
-        pass
-
-# try to transcribe
-strok = 'AtGc'
-d_transcribe = {'A': 'U', 'a': 'u', 'T': 'A', 't': 'a',
-                'G': "C", 'g': 'c', 'C': 'G', 'c': 'g'}
-d_complement = {'A': 'T', 'a': 'u', 'T': 'A', 't': 'a',
-                'G': "C", 'g': 'c', 'C': 'G', 'c': 'g'}
-for i in strok:
-    print(d_transcribe[i], end='')
-# try to reverse
-for a in range(1, len(strok)+1):
-    print(strok[-a], end='')
-"""
 commands = ['exit', 'transcribe', 'reverse', 'complement', 'reverse complement']
 print('Enter command:')
 command = input()
