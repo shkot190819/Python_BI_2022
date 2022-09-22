@@ -1,3 +1,4 @@
+
 commands = ['exit', 'transcribe', 'reverse', 'complement', 'reverse complement']
 print('Enter command:')
 command = input()
